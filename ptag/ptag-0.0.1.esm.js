@@ -1,0 +1,1 @@
+function createFetch(){return function(e,t,r){var c={"content-type":"application/json"};r&&(c["x-gtm-server-preview"]=r),fetch(e,{method:"post",headers:c,body:JSON.stringify(t)})}}export{createFetch,createFetch as default};
