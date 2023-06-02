@@ -1,0 +1,1 @@
+function createFetch(){return function(e,t,c){var n={"content-type":"application/json"};c&&(n["x-gtm-server-preview"]=c),fetch(e,{method:"post",headers:n,body:JSON.stringify(t)})}}window.ptag$55Mlc6wg$fetch=createFetch();
