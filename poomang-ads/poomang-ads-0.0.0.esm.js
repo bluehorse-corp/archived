@@ -1,0 +1,1 @@
+function createPoomangAds(o){return{display:function(){console.log("show poomang ads",o)}}}export{createPoomangAds,createPoomangAds as default};
